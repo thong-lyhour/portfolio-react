@@ -1,5 +1,4 @@
-import { Button } from "@/components/ui/button";
-import { FiDownload } from "react-icons/fi";
+
 import React from "react";
 import Social from "@/components/social";
 import Photo from "@/components/photo";
@@ -14,10 +13,10 @@ const Home = () => {
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Software Developer</span>
             <h1 className="h1">
-              Hello I'm <br /> <span className="text-accent">Thong Lyhour</span>{" "}
+              Hello I&apos;m <br /> <span className="text-accent">Thong Lyhour</span>{" "}
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80 ">
-              I’m a passionate full-stack developer with web and mobile
+              I am a passionate full-stack developer with web and mobile
               application. I thrive on challenges and I am committed to staying
               updated with the latest industry trends. With a blend of technical
               expertise and creativity.
