@@ -16,10 +16,8 @@ const Home = () => {
               Hello I&apos;m <br /> <span className="text-accent">Thong Lyhour</span>{" "}
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80 ">
-              I am a passionate full-stack developer with web and mobile
-              application. I thrive on challenges and I am committed to staying
-              updated with the latest industry trends. With a blend of technical
-              expertise and creativity.
+             Backend Software Engineer experienced in building scalable microservices and DevOps workflows using Java, Spring Boot, RabbitMQ, Redis, Jenkins, and OpenShift. Skilled in backend system design, CI/CD pipelines, performance optimization, and Next.js integration, with a strong focus on scalability and problem-solving.
+
             </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-2">

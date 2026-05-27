@@ -7,9 +7,9 @@ export const links = [
 ];
 
 export const personalStats = [
-    { num: 2, text: 'Years of experience' },
-    { num: 2, text: 'Projects completed'},
-    { num: 10, text: 'Technologies understood'},
+    { num: 3, text: 'Years of experience',  isMore: true},
+    { num: 10, text: 'Projects completed',isMore: true },
+    { num: 15, text: 'Technologies understood', isMore: true },
 ]
 
 export const education = {
@@ -22,13 +22,47 @@ export const education = {
       degree: "Computer Science and Engineering",
       duration: "2019 - 2023",
     },
+    {
+      institution: "Australian Centre for Education (ACE)",
+      degree: "Graduate GEP in English",
+      duration: "2023",
+    },
+    {
+      institution: "ELT Institute",
+      degree: "Graduate Diploma in English",
+      duration: "2015",
+    },
+  ],
+};
+
+export const course = {
+  icon: "",
+  title: "My Professional Training",
+  description: ``,
+  items: [
+    {
+      institution: "ISTAD, Phnom Penh",
+      degree: "NextJS and Spring Microservices",
+      duration: "04/2025 – 12/2025",
+    },
+    {
+      institution: "Iverson Associates Sdn, Kuala Lumpur",
+      degree: "Red Hat OpenShift Developer II (DO288)",
+      duration: "07/2025",
+    },
   ],
 };
 
 
 export const about = {
   title: "About me",
-  description: `I’m a passionate full-stack developer with web and mobile application. I thrive on challenges and I am committed to staying updated with the latest industry trends. With a blend of technical expertise and creativity.`,
+  description: `Experienced Software Developer with expertise in backend development, microservice
+architecture, and DevOps using Spring Boot, RabbitMQ, Redis, Jenkins, and OpenShift.
+Skilled in building scalable systems, reusable internal libraries, optimizing database
+performance, and implementing CI/CD pipelines for production environments.
+Experienced in integrating Next.js frontend applications with backend services. A
+proactive and adaptable engineer with strong problem-solving skills and a passion for
+learning and applying new technologies.`,
   info: [
     {
       fieldName: "Name",
@@ -40,7 +74,7 @@ export const about = {
     },
     {
       fieldName: "Experience",
-      fieldValue: "2+ Years",
+      fieldValue: "3+ Years",
     },
     {
       fieldName: "Email",
@@ -68,12 +102,23 @@ export const about = {
 export const experience = {
   icon: "",
   title: "My experience",
-  description: `I’m a passionate full-stack developer with web and mobile application. I thrive on challenges and I am committed to staying updated with the latest industry trends. With a blend of technical expertise and creativity.`,
+  description: `Experienced Software Developer with expertise in backend development, microservice
+architecture, and DevOps using Spring Boot, RabbitMQ, Redis, Jenkins, and OpenShift.
+Skilled in building scalable systems, reusable internal libraries, optimizing database
+performance, and implementing CI/CD pipelines for production environments.
+Experienced in integrating Next.js frontend applications with backend services. A
+proactive and adaptable engineer with strong problem-solving skills and a passion for
+learning and applying new technologies.`,
   items: [
     {
       company: "ACLEDA Bank Plc",
+      postition: "Programmer of Mobile Application",
+      duration: "Apr 2025 - present",
+    },
+    {
+      company: "ACLEDA Bank Plc",
       postition: "Staff of Mobile Application",
-      duration: "Sep 2024 - present",
+      duration: "Sep 2024 - Apr 2025",
     },
     {
       company: "Cyder SG (Remote)", //cyder cambodia
