@@ -9,6 +9,7 @@ import EducationPage from "./educationPage";
 import SkillPage from "./skillPage";
 import About from "./aboutPage";
 import ExperiencePage from "./experiencePage";
+import CoursePage from "./course-page";
 
 
 
@@ -31,6 +32,7 @@ const Resume = () => {
           <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
             <TabsTrigger value={"exp"}>Experience</TabsTrigger>
             <TabsTrigger value={"edu"}>Education</TabsTrigger>
+            <TabsTrigger value={"course"}>Professional Training</TabsTrigger>
             <TabsTrigger value={"skill"}>Skills</TabsTrigger>
             <TabsTrigger value={"about"}>About me</TabsTrigger>
           </TabsList>
@@ -43,6 +45,10 @@ const Resume = () => {
             {/* education */}
             <TabsContent value="edu" className="w-full">
               <EducationPage />
+            </TabsContent>
+             {/* education */}
+            <TabsContent value="course" className="w-full">
+              <CoursePage />
             </TabsContent>
             {/* skills */}
             <TabsContent value="skill" className="w-full">

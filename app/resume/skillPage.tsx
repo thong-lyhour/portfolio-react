@@ -11,6 +11,19 @@ import {
   SiSpring,
   SiNextdotjs,
   SiDotnet,
+  SiDocker,
+  SiRedhatopenshift,
+  SiKubernetes,
+  SiApachekafka,
+  SiRabbitmq,
+  SiRedis,
+  SiNexusmods,
+  SiSonatype,
+  SiSpringboot,
+  SiMongodb,
+  SiOracle,
+  SiJenkins,
+  SiKeycloak,
 } from "react-icons/si";
 
 const skills = {
@@ -26,10 +39,6 @@ const skills = {
       name: "nest.js",
     },
     {
-      icon: <FaReact />,
-      name: "react.js",
-    },
-    {
       icon: <SiNextdotjs />,
       name: "next.js",
     },
@@ -38,12 +47,52 @@ const skills = {
       name: "flutter",
     },
     {
-      icon: <SiSpring />,
+      icon: <SiSpringboot />,
       name: "spring boot",
     },
     {
-      icon: <SiDotnet />,
-      name: ".net",
+      icon: <SiDocker />,
+      name: "docker",
+    },
+    {
+      icon: <SiRedhatopenshift />,
+      name: "openshift",
+    },
+    {
+      icon: <SiKubernetes />,
+      name: "kubernetes",
+    },
+    {
+      icon: <SiApachekafka />,
+      name: "apache kafka",
+    },
+    {
+      icon: <SiRabbitmq />,
+      name: "rabbitmq",
+    },
+    {
+      icon: <SiRedis />,
+      name: "redis",
+    },
+    {
+      icon: <SiSonatype   />,
+      name: "sonatype nexus",
+    },
+    {
+      icon: <SiMongodb   />,
+      name: "mongodb",
+    },
+    {
+      icon: <SiOracle   />,
+      name: "oracle",
+    },
+     {
+      icon: <SiJenkins   />,
+      name: "jenkins",
+    },
+     {
+      icon: <SiKeycloak   />,
+      name: "keycloak",
     },
   ],
 };
